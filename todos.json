@@ -1,0 +1,26 @@
+[
+    {
+        "title": "Thriller",
+        "author": "Michael Jackson",
+        "year": "1982",
+        "genre": "Pop"
+    },
+    {
+        "title": "Back in Black",
+        "author": "AC/DC",
+        "year": "1980",
+        "genre": "Rock"
+    },
+    {
+        "title": "Abbey Road",
+        "author": "The Beatles",
+        "year": "1969",
+        "genre": "Rock"
+    },
+    {
+        "title": "The Dark Side of the Moon",
+        "author": "Pink Floyd",
+        "year": "1973",
+        "genre": "Progressive Rock"
+    }
+]
