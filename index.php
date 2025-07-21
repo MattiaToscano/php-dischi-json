@@ -26,9 +26,9 @@ $todos = json_decode($cd, true);
         <div class="mb-3 py-3">
             <ul class="mb-2">
                  <?php
-                    foreach ($cds as $song) {
-                        echo "<li> {$song['title']} - {$song['author']} - {$song['year']} - {$song['genre']} </li>";
-                    };
+                   foreach ($todos as $todo) {
+                       echo "<li class='list-group-item'>Titolo: {$todo['title']}, Autore: {$todo['author']}, Anno: {$todo['year']}, Genere: {$todo['genre']}</li>";
+                   }
                 ?>
             </ul>
             <form action="server.php" method="POST">
